@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "portfolio": "Portfolio",
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Junior",
+    "developer": "developer",
+    "description": "Computer Science student with a passion for software development and process automation. I focus on creating innovative and efficient solutions to optimize user experience.",
+    "buttons": {
+      "projects": "Projects",
+      "hire": "Hire Me"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "talentpitch": {
+      "role": "Process Automator",
+      "description": "I developed bots for the automated publication of content on social networks according to trends. Implemented scalable and monitorable robotisation systems with Airflow. Supported the development of front-end dashboards for clear visualisation of insights."
+    }
+  },
+  "getInTouch":{
+   "title": "Get In Touch"
+  },
+  "projects":{
+    "title": "Projects",
+    "viewAll": "View All Projects",
+    "demo": "Live Demo",
+    "video": "Video",
+    "projects": {
+      "cryptoAnalyzer": "Web application focused on cryptographic algorithms, utilizing modern web technologies for a seamless user experience. It combines a dynamic frontend with a robust backend, leveraging tools like React, TypeScript, Python, and Flask.",
+      "spaceDestroyer": "Multiplayer spaceship combat game built with Python and Pygame. It features a client-server architecture using sockets and threading for network play. Players engage in space battles, shooting lasers to deplete their opponent's life points.",
+      "mazeSolver": "This project implements AI pathfinding algorithms like A* and Greedy Search to solve mazes. Built with Python and Pygame, it features interactive visualization, custom maze loading, and solution saving."
+    }
+  },
+  "navigation": {
+    "back": "Back"
+  },
+  "metadata": {
+    "title": "David's Portfolio",
+    "description": "Software Developer Portfolio - Showcasing projects and skills in web development, automation, and software engineering"
+  },
+  "skills": {
+    "title": "Skills",
+    "features": {
+      "problemSolving": {
+        "title": "Problem Solving",
+        "description": "Analyze complex problems and find efficient solutions using algorithms and data structures"
+      },
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "Experience in group projects where communication and coordination were key to achieving goals"
+      },
+      "continuousLearning": {
+        "title": "Continuous Learning",
+        "description": "Constantly learning new technologies and staying up to date with the latest trends"
+      }
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "languages": "Languages",
+      "cloud": "Cloud",
+      "data": "Data",
+      "devops": "DevOps"
+    }
+  }
+}

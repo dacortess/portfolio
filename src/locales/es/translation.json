@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "portfolio": "Portafolio",
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, Soy",
+    "role": "Junior",
+    "developer": "programador",
+    "description": "Estudiante de Ciencias de la Computación con pasión por el desarrollo de software y la automatización de procesos. Me enfoco en crear soluciones innovadoras y eficientes para optimizar la experiencia del usuario.",
+    "buttons": {
+      "projects": "Proyectos",
+      "hire": "Contrátame"
+    }
+  },
+  "experience": {
+    "title": "Experiencia",
+    "talentpitch": {
+      "role": "Automatizador de Procesos",
+      "description": "Desarrolle bots para la publicación automatizada de contenido en redes sociales según tendencias. Implemente sistemas de robotización escalables y monitorizables con Airflow. Apoye el desarrollo de dashboards front-end para la visualización clara de insights."
+    }
+  },
+  "getInTouch": {
+    "title": "Contáctame"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "demo": "Demo",
+    "video": "Video",
+    "viewAll": "Ver Todos los Proyectos",
+    "projects": {
+      "cryptoAnalyzer": "Aplicación web centrada en algoritmos criptográficos, que utiliza tecnologías web modernas para ofrecer una experiencia de usuario fluida. Combina un frontend dinámico con un backend robusto, aprovechando herramientas como React, TypeScript, Python y Flask. ",
+      "spaceDestroyer": "Juego multijugador de combate de naves espaciales construido con Python y Pygame. Presenta una arquitectura cliente-servidor que utiliza sockets e hilos para jugar en red. Los jugadores se enfrentan en batallas espaciales, disparando láseres para reducir los puntos de vida de sus oponentes.",
+      "mazeSolver": "Este proyecto implementa algoritmos de búsqueda de rutas de IA como A* y Greedy Search para resolver laberintos. Construido con Python y Pygame, cuenta con visualización interactiva, carga de laberintos personalizados y guardado de soluciones."
+    }
+  },
+  "navigation": {
+    "back": "Volver"
+  },
+  "metadata": {
+    "title": "Portafolio de David",
+    "description": "Portafolio de Desarrollador de Software - Mostrando proyectos y habilidades en desarrollo web, automatización e ingeniería de software"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "features": {
+      "problemSolving": {
+        "title": "Resolución de problemas",
+        "description": "Analizar problemas complejos y encontrar soluciones eficientes mediante algoritmos y estructuras de datos"
+      },
+      "teamwork": {
+        "title": "Trabajo en equipo",
+        "description": "Experiencia en proyectos grupales donde la comunicación y la coordinación fueron clave para alcanzar los objetivos"
+      },
+      "continuousLearning": {
+        "title": "Aprendizaje continuo",
+        "description": "Aprende constantemente nuevas tecnologías y se mantiene al día de las tendencias más recientes"
+      }
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "languages": "Lenguajes",
+      "cloud": "Nube",
+      "data": "Datos",
+      "devops": "DevOps"
+    }
+  }
+}
