@@ -16,4 +16,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base:'https://dacortess.github.io/portfolio/'
 }));
