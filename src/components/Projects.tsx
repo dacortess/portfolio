@@ -1,6 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { Projects as ProjectsUI, type Project } from '@/components/ui/projects';
 import { Link } from 'react-router-dom';
+import cryptoanalyzerimg from '/assets/images/crypto-analyzer.jpg';
+import spacedestroyerimg from '/assets/images/space-destroyer.jpg';
+import mazesolverimg from '/assets/images/maze-solver.jpg';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -10,7 +13,7 @@ const Projects = () => {
       title: 'Crypto Analyzer',
       description: t('projects.projects.cryptoAnalyzer'),
       tech: ['Python', 'Flask', 'Typescript', 'Vite', 'TailwindCSS'],
-      image: '/images/crypto-analyzer.jpg',
+      image: cryptoanalyzerimg,
       demo: 'https://playful-flan-1c5e1c.netlify.app/',
       github: 'https://github.com/dacortess/Intro-Crypto-Project?tab=readme-ov-file',
     },
@@ -18,7 +21,7 @@ const Projects = () => {
       title: 'Space Destroyer',
       description: t('projects.projects.spaceDestroyer'),
       tech: ['Python', 'Pygame', 'Sockets'],
-      image: '/images/space-destroyer.jpg',
+      image: spacedestroyerimg,
       demo: '#',
       github: 'https://github.com/dacortess/Space-Destroyer',
     },
@@ -26,7 +29,7 @@ const Projects = () => {
       title: 'Maze Solver',
       description: t('projects.projects.mazeSolver'),
       tech: ['Python', 'Pygame', 'Tkinter', 'C++'],
-      image: '/images/maze-solver.jpg',
+      image: mazesolverimg,
       demo: 'https://www.youtube.com/watch?v=5vNwhw3XhFg',
       github: 'https://github.com/dacortess/maze_solver_iia?tab=readme-ov-file',
     },

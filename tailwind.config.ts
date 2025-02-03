@@ -44,14 +44,47 @@ export default {
             transform: "translateY(0)"
           },
         },
+        "fade-up": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(20px)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)"
+          }
+        },
         "progress": {
           "0%": { width: "0%" },
           "100%": { width: "var(--progress)" },
         },
+        "slide-in-left": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-100px)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)"
+          }
+        },
+        "slide-in-right": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(100px)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)"
+          }
+        },
       },
       animation: {
         "fade-in": "fade-in 0.6s ease-out forwards",
+        "fade-up": "fade-up 0.5s ease-out forwards",
         "progress": "progress 1s ease-out forwards",
+        "slide-in-left": "slide-in-left 0.6s ease-out forwards",
+        "slide-in-right": "slide-in-right 0.6s ease-out forwards",
       },
       backdropBlur: {
         xs: '2px',
