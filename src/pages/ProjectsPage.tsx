@@ -16,7 +16,7 @@ const ProjectsPage = () => {
       description: t('projects.projects.cryptoAnalyzer'),
       tech: ['Python', 'Flask', 'Typescript', 'Vite', 'TailwindCSS'],
       image: cryptoanalyzerimg,
-      demo: 'https://playful-flan-1c5e1c.netlify.app/',
+      demo: 'https://cryptohubunal.netlify.app/',
       github: 'https://github.com/dacortess/Intro-Crypto-Project?tab=readme-ov-file',
     },
     {
